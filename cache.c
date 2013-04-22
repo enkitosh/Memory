@@ -84,6 +84,7 @@ print_table(virtual_addr *v, physical_addr *p, int width, int type)
     printf("\n");
 
     } else {
+        printf("Components of the physical address \n");
         for(i = 0; i < p -> wide_p; i++) {
             if(i < p -> PPO) {
                 color_me(t_vp, 0, ind, MAGNETA);
@@ -125,7 +126,7 @@ int main(int argc, char **argv) {
     physical_addr *physc = malloc(sizeof(physical_addr));
 
     if(argc < 5) {
-        printf("Usage: ./cache [-virtual/physical] [-Page size] [-Index] [-Width]\n");
+        printf("Usage: ./cache [-virtual/physical] [-page size] [-Set-associative] [-Width]\n");
         exit(1);
     }
     
