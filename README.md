@@ -1,12 +1,12 @@
-Cache
+Memory
 =====
 
 Playing around with virtual memory translation
 
 To build:
     
-    git clone https://github.com/enkitosh/Cache.git
-    cd Cache
+    git clone https://github.com/enkitosh/Memory.git
+    cd Memory
     make clean && make
     
 Usage:
