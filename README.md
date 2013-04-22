@@ -4,15 +4,19 @@ Cache
 Playing around with virtual memory translation
 
 To build:
+    
     make clean && make
     
 Usage:
+    
     ./cache [-virtual/physical] [-page size] [-set-associative] [-bits]
     
 Example:
+
     ./cache virtual 4096 4 20
 
 or:
+    
     ./cache physical 4096 4 16
     
 The program simply shows which fields would be used to determine the following:
@@ -29,7 +33,8 @@ The program simply shows which fields would be used to determine the following:
 
 
 Your output should then look something like this:
-    https://www.dropbox.com/s/jo61pnd4099226r/cache.png
+    
+https://www.dropbox.com/s/jo61pnd4099226r/cache.png
     
 Todo:
 
