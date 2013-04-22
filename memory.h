@@ -1,5 +1,5 @@
-#ifndef CACHE_H_
-#define CACHE_H_
+#ifndef MEMORY_H_
+#define MEMORY_H_
 
 #include <stdio.h>
 #include <stdlib.h>
