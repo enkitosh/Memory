@@ -5,6 +5,8 @@ Playing around with virtual memory translation
 
 To build:
     
+    git clone https://github.com/enkitosh/Cache.git
+    cd Cache
     make clean && make
     
 Usage:
