@@ -6,7 +6,7 @@ Playing around with virtual memory translation
 To build:
     
     git clone https://github.com/enkitosh/Cache.git
-    cd into => Cache
+    cd Cache
     make clean && make
     
 Usage:
