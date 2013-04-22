@@ -11,15 +11,15 @@ To build:
     
 Usage:
     
-    ./cache [-virtual/physical] [-page size] [-set-associative] [-bits]
+    ./memory [-virtual/physical] [-page size] [-set-associative] [-bits]
     
 Example:
 
-    ./cache virtual 4096 4 20
+    ./memory virtual 4096 4 20
 
 or:
     
-    ./cache physical 4096 4 16
+    ./memory physical 4096 4 16
     
 The program simply shows which fields would be used to determine the following:
     
