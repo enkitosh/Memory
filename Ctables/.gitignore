@@ -1,0 +1,11 @@
+# Object files
+src/*.o
+
+# Libraries
+!lib/.gitignore
+lib/*
+
+# Executables
+tests/obj/*.o
+*.out
+*.app
