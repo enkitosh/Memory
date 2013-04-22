@@ -126,7 +126,7 @@ int main(int argc, char **argv) {
     physical_addr *physc = malloc(sizeof(physical_addr));
 
     if(argc < 5) {
-        printf("Usage: ./cache [-virtual/physical] [-page size] [-Set-associative] [-Width]\n");
+        printf("Usage: ./cache [-virtual/physical] [-page size] [-set-associative] [-bits]\n");
         exit(1);
     }
     
