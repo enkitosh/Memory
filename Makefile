@@ -1,5 +1,5 @@
 all:
-	gcc -o cache cache.c cache.h Ctables/Ctables.c Ctables/Ctables.h
+	gcc -o memory memory.c memory.h Ctables/Ctables.c Ctables/Ctables.h
 
 clean: 
-	rm -rf cache
+	rm -rf memory
