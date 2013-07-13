@@ -36,7 +36,7 @@ The program simply shows which fields would be used to determine the following:
 
 Your output should then look something like this:
     
-![Memory table](https://github.com/enkitosh/Memory/blob/master/cache.png)
+![Memory table](https://github.com/enkitosh/Memory/blob/master/cache.png?raw=true)
     
 Todo:
 
